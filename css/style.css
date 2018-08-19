@@ -1,0 +1,327 @@
+.map {
+	height: 300px;
+	width: 500px;
+}
+
+
+body {
+background-color: #f9fcfc;
+font-family: sans-serif;
+font-size: 20px;	
+line-height: 30px;
+font-weight: normal;
+margin: 0;
+padding: 0;
+}
+
+img {
+	min-width: 100%;
+	height: auto;
+}
+
+.wrapper {
+	width: 1280px;
+	margin: 0 auto;
+}
+
+.container {
+	width: 940px;
+	margin: 0 auto;
+}
+
+.container--header {
+	display: flex;
+	justify-content: space-between;
+
+}
+
+.logo img {
+	padding-left: 10px;
+	padding-top: 10px;
+	float: left;
+}
+
+.pages-header {
+	padding-top: 8px;
+}
+
+.school-logo {
+	font-family: "Prata", serif;
+	font-size: 30px;
+	color: #eec643;
+	padding-top: 30px;
+	padding-left: 55px;
+}
+
+.main-nav {
+	display: inline-flex;
+  	flex-wrap: wrap;
+  	font-family: "PTSans", sans-serif;
+  	
+  	text-decoration: none;
+  	padding-top: 23px;
+}
+
+.main-nav__list {
+	margin: 5;
+	padding: 0;
+	list-style: none;
+	text-align: right;
+	display: inline-flex;
+  	flex-wrap: wrap;
+}
+
+.main-nav__item a {
+	display: inline-block;
+	padding: 0px 10px;
+	color: #021a23;
+	font-size: 16px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.promo {
+	min-height: 550px;
+	background-image: url(../img/bg_main.png);
+	-webkit-background-size: cover;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.container--promo-info {
+	display: -webkit-inline-flex;
+	display: -moz-inline-flex;
+	display: -ms-inline-flex;
+	display: -o-inline-flex;
+	display: inline-flex;
+	justify-content: space-between;
+}
+
+.promo-title {
+	font-family: "Prata", serif;
+	font-size: 55px;
+	line-height: normal;
+	color: #f9fcfc;
+}
+
+.promo-info {
+	padding-left: 55px;
+	padding-top: 290px;
+	padding-right: 532px;
+}
+
+.promo-slogan {
+	font-family: "PTSans", sans-serif;
+	font-size: 20px;
+	color: #f9fcfc;
+}
+
+form {
+  width: 270px;
+  margin:auto;
+  background-color:#ede9da;
+  border: 2px solid #021a23;
+}
+
+.form-wrap {
+	padding: 20px;
+	width: 210px;
+	margin: 0 auto;
+
+}
+
+.submit {
+  background: #021a23;
+  padding: 20px 0;
+  color: #f9fcfc;
+  text-align: center;
+  width: 100%;
+  text-transform: uppercase;
+  border: none;
+}
+
+.name {
+	display: block;
+	
+}
+
+.input {
+	border: none;
+	border-bottom: 2px solid #021a23;
+	color: #787d7c;
+	font-family: "PTSans", sans-serif;
+	font-size: 20px;
+	padding-bottom: 15px;
+	background-color:#ede9da;
+	width: 100%;
+}
+
+.select {
+	width: 100%;
+	background-color:#ede9da;
+	border: none;
+	border-bottom: 2px solid #021a23;
+	color: #787d7c;
+	font-family: "PTSans", sans-serif;
+	font-size: 20px;
+}
+
+.registration-first__title {
+	font-family: "PTSans 700", sans-serif;
+	font-size: 30px;
+	color: #021a23;
+}
+
+.registration-first__about {
+	font-family: "PTSans", sans-serif;
+	font-size: 20px;
+	color: #021a23;
+}
+
+.section1 {}
+
+.container {
+ max-width: 960px;
+ margin: auto;
+ padding: 0 15px; 
+}
+
+.container-1 {
+	width: 100%;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+}
+
+.directions {
+ 
+ display: flex;
+ flex-wrap: wrap;
+ margin-left: 154px;
+ margin-right: 57px;
+}
+
+.directions-name {
+	width: 5.288%;
+	position: relative;
+}
+
+.directions-title {
+	font-family: "Prata", serif;
+	font-size: 50px;
+	position: absolute;
+	color: #021a23;
+	border-bottom: 2px solid #eec643;
+	position: absolute;
+	top: 211px;
+    left: -131px;
+	transform: rotate(-90deg);
+	border-top: 2px solid #eec643;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	width: 564px;
+	margin-top: 57px;
+}
+
+.directions .row-up {
+ margin-left: 15px; 
+ margin-right: 57px;
+ width: 83.58%;
+ display: inline-flex;
+}
+
+
+.col-2 .vocale {
+	background-image: url(../img/directions_card_img_2.png);
+	background-repeat: no-repeat;
+	height: 265px;
+	width: 570px;
+	display: block;
+	margin-left: 15px;
+}
+
+.section1 .guitar {
+	background-image: url(../img/directions_card_img_1.png);
+	background-repeat: no-repeat;
+	height: 265px;
+	width: 470px;
+	display: block;
+	margin-right: 15px;
+}
+
+.direction-choose {
+	font-family: "PTSans 700", sans-serif;
+	font-size: 30px;
+	padding-top: 20px;
+	color: #f9fcfc;
+}
+
+.direction-choose__about {
+	font-family: "PTSans", sans-serif;
+	font-size: 20px;
+	padding-top: 40px;
+	color: #f9fcfc;
+}
+
+.direction-choose__about__phone {
+	display: none;
+}
+
+.direction-choose__price {
+	font-family: "PTSans", sans-serif;
+	font-size: 20px;
+	color: #f9fcfc;
+
+	padding-bottom: 20px;
+}
+
+.section1 .row-down {
+ padding-left: 15px; 
+ width: 570px;
+ display: inline-block;
+}
+
+.section1 .piano {
+	background-image: url(../img/directions_card_img_3.png);
+	background-repeat: no-repeat;
+	height: 265px;
+	width: 470px;
+	display: inline-block;
+	padding-right: 15px;
+}
+
+.row-left {
+	padding-left: 15px;
+	width: 570px;
+	display: inline-block;
+}
+
+.section1 .lection {
+	background-image: url(../img/directions_card_img_4.png);
+	background-repeat: no-repeat;
+	height: 270px;
+	width: 270px;
+	padding-right: 15px;
+	display: block;
+}
+
+.section1 .all-directions {
+	background-color: #eec643;
+	height: 270px;
+	width: 270px;
+	padding-left: 15px;
+	display: block;
+}
+
+.
+
+@media screen  and (max-width: 320px) {
+.directions-title {
+	color:yellow;
+}
+
+
+}
