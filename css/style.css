@@ -21,24 +21,20 @@ img {
 
 .wrapper {
 	width: 1280px;
-	margin: 0 auto;
+	margin: 0 ;
 }
 
 .container {
-	width: 940px;
+	width: 1170px;
 	margin: 0 auto;
+	padding: 0 15px;
 }
 
 .container--header {
 	display: flex;
+	margin-left: 50px;
 	justify-content: space-between;
 
-}
-
-.logo img {
-	padding-left: 10px;
-	padding-top: 10px;
-	float: left;
 }
 
 .pages-header {
@@ -50,14 +46,13 @@ img {
 	font-size: 30px;
 	color: #eec643;
 	padding-top: 30px;
-	padding-left: 55px;
 }
 
 .main-nav {
 	display: inline-flex;
   	flex-wrap: wrap;
   	font-family: "PTSans", sans-serif;
-  	
+  	margin-right: 0px;
   	text-decoration: none;
   	padding-top: 23px;
 }
@@ -96,6 +91,8 @@ img {
 	display: -o-inline-flex;
 	display: inline-flex;
 	justify-content: space-between;
+	width: 100%;
+	padding-top: 50px;
 }
 
 .promo-title {
@@ -106,22 +103,33 @@ img {
 }
 
 .promo-info {
+	display: inline-block;
+	vertical-align: middle;
 	padding-left: 55px;
-	padding-top: 290px;
-	padding-right: 532px;
+	width: 695px;
+	padding-right: 55px;
+	margin-top: 100px;
 }
 
 .promo-slogan {
 	font-family: "PTSans", sans-serif;
 	font-size: 20px;
 	color: #f9fcfc;
+	width: 70%;
 }
 
-form {
+.registration-first {
   width: 270px;
-  margin:auto;
+  margin: 0 auto;
+  display: inline-block;
   background-color:#ede9da;
   border: 2px solid #021a23;
+  margin-bottom: 150px;
+  margin-right: 70px;
+  opacity: 0.9;
+}
+
+.registration-form {
 }
 
 .form-wrap {
@@ -180,12 +188,6 @@ form {
 }
 
 .section1 {}
-
-.container {
- max-width: 960px;
- margin: auto;
- padding: 0 15px; 
-}
 
 .container-1 {
 	width: 100%;
