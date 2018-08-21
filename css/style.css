@@ -196,6 +196,7 @@ img {
 	display: -ms-flex;
 	display: -o-flex;
 	display: flex;
+	margin-top: 90px;
 }
 
 .directions {
@@ -218,8 +219,8 @@ img {
 	color: #021a23;
 	border-bottom: 2px solid #eec643;
 	position: absolute;
-	top: 211px;
-    left: -131px;
+	top: 183px;
+    left: -179px;
 	transform: rotate(-90deg);
 	border-top: 2px solid #eec643;
 	padding-top: 25px;
@@ -231,18 +232,21 @@ img {
 .directions .row-up {
  margin-left: 15px; 
  margin-right: 57px;
- width: 83.58%;
+ width: 1070px;
+ margin-bottom: 15px;
  display: inline-flex;
+ flex-wrap: wrap-reverse;
 }
 
 
-.col-2 .vocale {
+ .vocale {
 	background-image: url(../img/directions_card_img_2.png);
 	background-repeat: no-repeat;
 	height: 265px;
 	width: 570px;
-	display: block;
+	display: inline-block;
 	margin-left: 15px;
+	order: 2;
 }
 
 .section1 .guitar {
@@ -250,8 +254,9 @@ img {
 	background-repeat: no-repeat;
 	height: 265px;
 	width: 470px;
-	display: block;
-	margin-right: 15px;
+	margin-right: 15px;	
+	display: inline-block;
+	order: 1;
 }
 
 .direction-choose {
@@ -281,9 +286,12 @@ img {
 }
 
 .section1 .row-down {
- padding-left: 15px; 
- width: 570px;
- display: inline-block;
+ margin-left: 15px; 
+ margin-top: 15px;	
+ margin-bottom: 15px;	
+ width: 1070px;
+ display: inline-flex;
+ flex-wrap: wrap;
 }
 
 .section1 .piano {
@@ -292,13 +300,14 @@ img {
 	height: 265px;
 	width: 470px;
 	display: inline-block;
-	padding-right: 15px;
+	margin-right: 15px;
 }
 
 .row-left {
-	padding-left: 15px;
+	margin-left: 15px;
 	width: 570px;
-	display: inline-block;
+	display: inline-flex;
+	flex-wrap: wrap;
 }
 
 .section1 .lection {
@@ -306,15 +315,15 @@ img {
 	background-repeat: no-repeat;
 	height: 270px;
 	width: 270px;
-	padding-right: 15px;
-	display: block;
+	margin-right: 15px;
+	display: inline-block;
 }
 
 .section1 .all-directions {
 	background-color: #eec643;
 	height: 270px;
 	width: 270px;
-	padding-left: 15px;
+	margin-left: 15px;	
 	display: block;
 }
 
